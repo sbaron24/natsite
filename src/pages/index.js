@@ -5,7 +5,7 @@ import Boat from "../images/boat.jpg"
 export default function Home() {
   return (
     <Layout>
-      <img src={Boat} alt=""></img>
+      <img src={Boat} alt="" style={{border: "1px solid lightblue"}}></img>
     </ Layout>
   )
 }
