@@ -1,11 +1,11 @@
 import React from "react"
 import Layout from "../components/layout"
-import Boat from "../images/boat.jpg"
 
 export default function Home() {
   return (
     <Layout>
-      <img src={Boat} alt=""></img>
+      <h1>About Natalie</h1>
+      <p>Great stuff here!</p>
     </ Layout>
   )
 }

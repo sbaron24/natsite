@@ -1,11 +1,10 @@
 import React from "react"
 import Layout from "../components/layout"
-import Boat from "../images/boat.jpg"
 
-export default function Home() {
+export default function NotFound() {
   return (
     <Layout>
-      <img src={Boat} alt=""></img>
+        <p>Page not found, sorry!</p>
     </ Layout>
   )
 }
