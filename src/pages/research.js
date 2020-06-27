@@ -18,7 +18,10 @@ export default function Research() {
 
   return (
     <Layout>
-    <h1>Current Projects</h1>
+    <div style={{display: `inline-block`}}>
+        <h1 style={{float: `left`}}>Current</h1>
+        <h1 style={{display: `inline`, marginLeft: `30px`, color: `lightgray`}}>Past</h1>
+    </div>
     <Project></Project>
     <div style={{display: "inline-block"}}>
         <Project style={{display: "inline", float: "left", width: "50%"}}></Project>
