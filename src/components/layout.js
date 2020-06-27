@@ -8,10 +8,10 @@ const ListLink = props => (
 
 export default function Layout({ children }) {
   return (
-    <div style={{ margin: `3rem auto`, maxWidth: 900, padding: `0 1rem` }}>
-      <header style={{ marginBottom: `1.5rem` }}>
+    <div style={{ margin: `3rem auto`, maxWidth: 900, padding: `0 1rem`}}>
+      <header style={{ marginBottom: `1.5rem`, borderBottom: `1px solid lightgray`, paddingBottom: 20}}>
         <Link to="/" style={{ textShadow: `none`, backgroundImage: `none` }}>
-          <h2 style={{ display: `inline` }}>Natlie Cohen Lab</h2>
+          <h2 style={{ display: `inline` }}>Natalie Cohen Lab</h2>
         </Link>
         <ul style={{ listStyle: `none`, float: `right` }}>
           <ListLink to="/about/">About</ListLink>
