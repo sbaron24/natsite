@@ -1,10 +1,10 @@
 import React from "react"
 import Layout from "../components/layout"
 
-export default function Team() {
+export default function Contact() {
   return (
     <Layout>
-      <h1>The crew!</h1>
+      <h1>Contact</h1>
       <p>Great stuff here!</p>
     </ Layout>
   )

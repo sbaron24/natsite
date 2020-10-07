@@ -2,7 +2,7 @@ import React from "react"
 import Layout from "../components/layout"
 import Profile from "../images/stock_profile_pic.jpg"
 
-export default function About() {
+export default function Projects() {
   return (
     <Layout>
     <div style={{ textAlign: `center`, marginBottom: `2rem`}}>
