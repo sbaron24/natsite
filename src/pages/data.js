@@ -2,7 +2,7 @@ import React from "react"
 import Layout from "../components/layout"
 import Plankton from "../images/plankton_placeholder.png"
 
-export default function Projects() {
+export default function Data() {
 
   return (
     <Layout>
