@@ -1,9 +1,11 @@
 import React, { useState } from "react"
 import { Link } from "gatsby"
+import { TWITTER } from "../text/layout"
+
 const ListLink = props => (
   <li style={{ display: `inline-block`, marginRight: `1rem` }}>
     <span>
-      <Link style={{fontSize: `10px`}} to={props.to}>{props.children}</Link>
+      <Link style={{fontSize: props.size}} to={props.to}>{props.children}</Link>
     </span>
   </li>
 )
@@ -11,7 +13,7 @@ const ListLink = props => (
 export default function Layout({ children }) {
 
   return (
-    <div>
+    <div style={{position: `relative`, minHeight: `100vh`}}>
       <header style={{background: `#F6F6F4`, paddingTop: `2rem`}}>
         <Link to="/" style={{ textShadow: `none`, backgroundImage: `none` }}>
           <h2 style={{ color: `#4B5668`, textAlign: `center`, margin: `0px`, marginBottom: `10px`, textShadow: `0px 3px #e1e1e1` }}>Cohen Lab</h2>
@@ -22,14 +24,12 @@ export default function Layout({ children }) {
           <ListLink to="/data/">DATA</ListLink>
           <ListLink to="/blog/">BLOG, RESOURCES & TUTORIALS</ListLink>
           <ListLink to="/cv/">CV</ListLink>
-          <ListLink to="/contact/">CONTACT</ListLink>
+          <ListLink size="14px" to="/contact/"><strong>CONTACT ME!</strong></ListLink>
         </ul>
       </header>
       {children}
-      <div style={{textAlign: `center`, padding: `2rem 0px 2rem 0px`, background: `#F6F6F4`}}>
-        <ListLink to="https://www.instagram.com">INSTAGRAM</ListLink>
-        <ListLink to="https://www.twitter.com">TWITTER</ListLink>
-        <ListLink to="https://www.facebook.com">FACEBOOK</ListLink>
+      <div style={{textAlign: `center`, margin: `1rem 0px 0px 0px`, background: `#F6F6F4`, position: `absolute`, width: `100%`}}>
+        <ListLink to={TWITTER}>TWITTER</ListLink>
       </div>
     </div>
   )

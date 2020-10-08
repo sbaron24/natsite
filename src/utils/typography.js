@@ -8,7 +8,8 @@ funstonTheme.bodyGray = 0.0
 funstonTheme.headerWeight = 600
 funstonTheme.overrideThemeStyles = () => ({
     'a': {
-      "text-decoration": "none"
+      "text-decoration": "none",
+      "font-size": "10px"
     },
     'a:hover': {
       "text-decoration": "none"
@@ -19,6 +20,10 @@ funstonTheme.overrideThemeStyles = () => ({
     },
     'body': {
       "background": "#F6F6F4"
+    },
+    'html': {
+      "position": "relative",
+      "height": "100%"
     }
 })
 const typography = new Typography(funstonTheme);

@@ -1,0 +1,1 @@
+export const TWITTER = "https://twitter.com/oceanatalie1?ref_src=twsrc%5Etfw%7Ctwcamp%5Eembeddedtimeline%7Ctwterm%5Eprofile%3Aoceanatalie1&ref_url=https%3A%2F%2Fnataliercohen.wordpress.com%2Fcontact%2F"
