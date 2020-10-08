@@ -5,6 +5,7 @@
  */
 
 module.exports = {
+  pathPrefix: "/natsite",
   plugins: [
     {
       resolve: `gatsby-plugin-typography`,
