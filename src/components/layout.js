@@ -16,7 +16,7 @@ export default function Layout({ children }) {
     <div style={{position: `relative`, minHeight: `100vh`}}>
       <header style={{background: `#F6F6F4`, paddingTop: `2rem`}}>
         <Link to="/" style={{ textShadow: `none`, backgroundImage: `none` }}>
-          <h2 style={{ color: `#4B5668`, textAlign: `center`, margin: `0px`, marginBottom: `10px`, textShadow: `0px 3px #e1e1e1` }}>Cohen Lab</h2>
+          <h1 style={{ color: `#4B5668`, textAlign: `center`, margin: `0px`, marginBottom: `10px`, textShadow: `0px 3px #e1e1e1` }}>Cohen Lab</h1>
         </Link>
         <ul style={{ listStyle: `none`, textAlign: `center`, marginBottom: `0px` }}>
           <ListLink to="/projects/">CURRENT PROJECTS</ListLink>

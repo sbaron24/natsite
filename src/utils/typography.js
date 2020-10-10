@@ -9,7 +9,7 @@ funstonTheme.headerWeight = 600
 funstonTheme.overrideThemeStyles = () => ({
     'a': {
       "text-decoration": "none",
-      "font-size": "10px"
+      "font-size": "12px"
     },
     'a:hover': {
       "text-decoration": "none"
