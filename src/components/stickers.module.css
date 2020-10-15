@@ -1,0 +1,25 @@
+.blm {
+  background-image: url(./blm.png);
+  width: 200px;
+  height: 200px;
+  background-size: 100px;
+  border-radius: 6px;
+}
+
+.blm2 {
+  background-image: url(./blm.png);
+  width: 200px;
+  height: 200px;
+  background-size: 100px;
+  border-radius: 6px;
+  margin: 0px 10px 0px 10px;
+}
+
+.blm3 {
+  background-image: url(./blm.png);
+  width: 200px;
+  height: 200px;
+  background-size: 100px;
+  border-radius: 6px;
+  margin: 0px 10px 0px 10px;
+}

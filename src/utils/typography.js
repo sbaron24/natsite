@@ -12,7 +12,8 @@ funstonTheme.overrideThemeStyles = () => ({
       "font-size": "12px"
     },
     'a:hover': {
-      "text-decoration": "none"
+      "text-decoration": "none",
+      "color": "#BA0D2F"
     },
     'p': {
       "color": `#6C6063`,
