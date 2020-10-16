@@ -1,5 +1,5 @@
 .blm {
-  background-image: url(./blm.png);
+  background-image: url(../images/blm.png);
   width: 200px;
   height: 200px;
   background-size: 100px;
@@ -7,7 +7,7 @@
 }
 
 .blm2 {
-  background-image: url(./blm.png);
+  background-image: url(../images/blm.png);
   width: 200px;
   height: 200px;
   background-size: 100px;
@@ -16,10 +16,18 @@
 }
 
 .blm3 {
-  background-image: url(./blm.png);
+  background-image: url(../images/blm.png);
   width: 200px;
   height: 200px;
   background-size: 100px;
   border-radius: 6px;
   margin: 0px 10px 0px 10px;
+}
+
+.projectsBanner {
+  width: 100%;
+  background-image: url(../images/swim.jpg);
+  height: 55vh;
+  background-position: center;
+  margin-bottom: 3rem;
 }

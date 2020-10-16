@@ -3,7 +3,7 @@ import Layout from "../components/layout"
 import Ocean from "../images/ocean.jpeg"
 import CTD from "../images/ctd.png"
 import { HELLO, HELLO2 } from "../text/homepage"
-import Stickers from "../components/stickers"
+import { Stickers } from "../components/imageContainer"
 
 export default function Home() {
 
