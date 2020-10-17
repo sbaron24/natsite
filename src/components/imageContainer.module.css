@@ -4,6 +4,7 @@
   height: 200px;
   background-size: 100px;
   border-radius: 6px;
+  margin: 10px 10px 0px 10px;
 }
 
 .blm2 {
@@ -12,7 +13,7 @@
   height: 200px;
   background-size: 100px;
   border-radius: 6px;
-  margin: 0px 10px 0px 10px;
+  margin: 10px 10px 0px 10px;
 }
 
 .blm3 {
@@ -21,7 +22,7 @@
   height: 200px;
   background-size: 100px;
   border-radius: 6px;
-  margin: 0px 10px 0px 10px;
+  margin: 10px 10px 0px 10px;
 }
 
 .projectsBanner {
@@ -30,4 +31,13 @@
   height: 55vh;
   background-position: center;
   margin-bottom: 3rem;
+}
+
+.stickers {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: auto;
+  width: 50%;
+  flex-wrap: wrap;
 }

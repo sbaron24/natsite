@@ -17,8 +17,8 @@ export default function Home() {
           <p style={{ textAlign: `center`, margin: `0px`, fontSize: `14px` }}>MARINE MOLECULAR ECOLOGIST</p>
           
         <div style={{paddingBottom: `1rem`}}>
-          <div style={{display: `inline`, float: `left`,  width: `50%`, margin: `0px 1rem 0px 1rem`}}>
-            <h2 style={{ color: `#4B5668`, textAlign: `left`, padding: `3rem 0px 10px 0px`, fontFamily: `Serif` }}>
+          <div style={{display: `inline`, float: `left`,  width: `50%`, margin: `0px 1rem 0px 1rem`, minWidth: `500px`}}>
+            <h2 style={{ color: `#4B5668`, textAlign: `left`, padding: `3rem 0px 10px 0px`, fontFamily: `Serif`}}>
               Marine biogeochemistry & <br /> microbial physiology
             </h2>
             <p>{HELLO}</p>

@@ -10,7 +10,7 @@ export function Stickers() {
 
     return (
         <div style={{backgroundColor: `#D2D9E2`, padding: `1rem`}}>
-            <div style={{display: `flex`, flexDirection: `row`, justifyContent: `space-between`, margin: `auto`, width: `50%`}}>
+            <div className={imageContainerStyles.stickers}>
                 <Sticker stickerClass={imageContainerStyles.blm}/>
                 <Sticker stickerClass={imageContainerStyles.blm2}/>
                 <Sticker stickerClass={imageContainerStyles.blm3}/>
