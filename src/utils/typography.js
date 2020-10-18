@@ -20,7 +20,7 @@ funstonTheme.overrideThemeStyles = () => ({
       "font-size": "14px"
     },
     'body': {
-      "background": "#F6F6F4"
+      "background": "#FFFFFF"
     },
     'html': {
       "position": "relative",

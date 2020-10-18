@@ -20,7 +20,9 @@ export default function Layout({ children }) {
     <div style={{position: `relative`, minHeight: `100vh`, width: `100%`}}>
       <header style={{background: `#F6F6F4`, paddingTop: `2rem`}}>
         <Link to="/" style={{ textShadow: `none`, backgroundImage: `none` }}>
-          <h1 style={{ color: `#4B5668`, textAlign: `center`, margin: `0px`, marginBottom: `10px`, textShadow: `0px 3px #e1e1e1` }}>Cohen Lab</h1>
+          <h1 style={{ color: `#4B5668`, textAlign: `center`, margin: `0px`, marginBottom: `10px`, textShadow: `0px 3px #e1e1e1`, padding: `10px` }}>
+          Marine Biogeochemistry & <br /> Microbial Ecology at Skidaway Institute of Oceanography
+          </h1>
         </Link>
         <ul style={{ listStyle: `none`, textAlign: `center`, marginBottom: `0px` }}>
           <NavLink to="/projects/">CURRENT PROJECTS</NavLink>
@@ -32,7 +34,7 @@ export default function Layout({ children }) {
         </ul>
       </header>
       {children}
-      <div style={{textAlign: `center`, marginTop: `1rem`, background: `#F6F6F4`, position: `absolute`, width: `100%`}}>
+      <div style={{textAlign: `center`, paddingTop: `1rem`, background: `#F6F6F4`, position: `absolute`, width: `100%`}}>
         <FooterLink href={UGA}>UGA Dept. Marine Sci</FooterLink>
         <FooterLink href={SKIO}>SKIO</FooterLink>
         <FooterLink href={SCHOLAR}>Google Scholar</FooterLink>

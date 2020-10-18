@@ -1,11 +1,11 @@
 .content {
     margin-bottom: 3rem;
     border: solid lightgrey 2px;
-    height: 420px;
     min-width: 100%;
     display: inline-block;
-    position: relative;
-    min-width: 1052px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 3rem;
 }
 
 .graph1 { 
@@ -15,9 +15,20 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-    position: absolute;
-    top: 40px;
-    right: -20px;
-    border: solid lightgrey 2px;
     transform: scale(1.1);
+    margin-left: 2rem;
+}
+
+.container {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: auto;
+    width: 100%;
+}
+
+@media (min-width: 500px) {
+    .container { 
+        width: 75%;
+    }
 }

@@ -4,6 +4,7 @@ import Ocean from "../images/ocean.jpeg"
 import CTD from "../images/ctd.png"
 import { HELLO, HELLO2 } from "../text/homepage"
 import { Stickers } from "../components/imageContainer"
+import { indexStyles } from "../components/index.css"
 
 export default function Home() {
 
@@ -16,18 +17,26 @@ export default function Home() {
           <h1 style={{ color: `#4B5668`, textAlign: `center`, margin: `0px`, marginBottom: `10px`, fontFamily: `Serif` }}>Natalie R. Cohen</h1>
           <p style={{ textAlign: `center`, margin: `0px`, fontSize: `14px` }}>MARINE MOLECULAR ECOLOGIST</p>
           
-        <div style={{paddingBottom: `1rem`}}>
-          <div style={{display: `inline`, float: `left`,  width: `50%`, margin: `0px 1rem 0px 1rem`, minWidth: `500px`}}>
-            <h2 style={{ color: `#4B5668`, textAlign: `left`, padding: `3rem 0px 10px 0px`, fontFamily: `Serif`}}>
-              Marine biogeochemistry & <br /> microbial physiology
-            </h2>
-            <p>{HELLO}</p>
-            <p>{HELLO2}</p>
-          </div>
-          <img src={CTD} alt="CTD" style={{ paddingTop: `3rem`, width: `45%`, objectFit: `cover`, display: `inline-block`, WebkitTransform: `scale(1.3) rotate(10deg)`}}></img>
-        </div>
+        <About />
       </div>
     <Stickers />
+    <div/>
     </ Layout>
   )
 }
+
+const About = () => {
+  
+  return (
+    <div className="about container">
+      <div style={{display: `inline`,  width: `50%`, margin: `0px 1rem 0px 1rem`}}>
+        <h1 className="about title" style={{ color: `#4B5668`, padding: `3rem 0px 10px 0px`, fontFamily: `Serif`}}>
+          Marine biogeochemistry & <br /> microbial physiology
+        </h1>
+        <p>{HELLO}</p>
+        <p>{HELLO2}</p>
+      </div>
+      <img src={CTD} alt="CTD" className="about image"></img>
+    </div>
+  )
+} 
