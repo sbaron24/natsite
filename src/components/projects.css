@@ -1,0 +1,10 @@
+.graph1 { 
+    width: 350px;
+    height: 350px;
+    background-image: url(../images/graph1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    transform: scale(1.1);
+    margin-left: 2rem;
+}

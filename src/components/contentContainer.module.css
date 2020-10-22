@@ -6,12 +6,12 @@
     display: flex;
     flex-wrap: wrap;
     padding: 3rem;
+    font-family: serif;
 }
 
-.graph1 { 
+.imageClass { 
     width: 350px;
     height: 350px;
-    background-image: url(../images/graph1.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;

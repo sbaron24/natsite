@@ -24,7 +24,8 @@ funstonTheme.overrideThemeStyles = () => ({
     },
     'html': {
       "position": "relative",
-      "height": "100%"
+      "height": "100%",
+      "background": '#F6F6F4'
     }
 })
 const typography = new Typography(funstonTheme);

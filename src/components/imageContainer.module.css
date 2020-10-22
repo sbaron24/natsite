@@ -29,6 +29,16 @@
   width: 100%;
   background-image: url(../images/swim.jpg);
   height: 55vh;
+  min-height: 450px;
+  background-position: center;
+  margin-bottom: 3rem;
+}
+
+.researchBanner {
+  width: 100%;
+  background-image: url(../images/beakers.jpeg);
+  height: 55vh;
+  min-height: 450px;
   background-position: center;
   margin-bottom: 3rem;
 }
