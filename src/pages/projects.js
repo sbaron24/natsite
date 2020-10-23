@@ -23,6 +23,7 @@ export default function Projects() {
     <Layout>
       <Banner bannerClass={imageContainerStyles.projectsBanner}/>
       <ContentContainer>
+        <h1 className="pageTitle">Current Projects</h1>
         {projects}
       </ContentContainer>
     </Layout>

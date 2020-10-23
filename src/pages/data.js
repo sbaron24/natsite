@@ -21,6 +21,7 @@ export default function Data() {
     <Layout>
       <Banner bannerClass={imageContainerStyles.dataBanner}/>
       <ContentContainer>
+        <h1 className="pageTitle">Data</h1>
         {data}
       </ContentContainer>
     </Layout>

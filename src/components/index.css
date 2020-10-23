@@ -32,3 +32,15 @@
         width: 300px;
     }
 }
+
+.pageTitle {
+    text-align: center;
+    margin: 3rem 0rem;
+}
+
+@media (max-width: 500px) {
+    .pageTitle { 
+        text-align: left;
+        margin: 3rem 1rem;
+    }
+}

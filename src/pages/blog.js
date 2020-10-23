@@ -19,7 +19,8 @@ export default function Blog() {
 
   return (
     <Layout>
-      <Banner bannerClass={imageContainerStyles.dataBanner}/>
+      <Banner bannerClass={imageContainerStyles.blogBanner}/>
+      <h1 className="pageTitle">Blog & Tutorials</h1>
       <BlogContainer>
         {blogPosts}
       </BlogContainer>

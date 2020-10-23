@@ -1,6 +1,7 @@
-import React, { useState } from "react"
+import React from "react"
 import { Link } from "gatsby"
 import { GITHUB, UGA, SKIO, SCHOLAR, TWITTER} from "../text/layout"
+import downloadFile from "../files/nrc2020.pdf"
 
 const NavLink = props => (
   <li style={{ display: `inline-block`, marginRight: `1rem` }}>
@@ -13,6 +14,12 @@ const NavLink = props => (
 const FooterLink = props => (
     <a href={props.href} style={{marginRight: `1rem`}}>{props.children}</a>
 )
+
+function DownloadCVLink() {
+  return (
+    <a href={downloadFile} download>Download CV</a>
+  )
+}
 
 export default function Layout({ children }) {
 
@@ -29,7 +36,6 @@ export default function Layout({ children }) {
           <NavLink to="/research/">PAST RESEARCH</NavLink>
           <NavLink to="/data/">DATA</NavLink>
           <NavLink to="/blog/">BLOG, RESOURCES & TUTORIALS</NavLink>
-          <NavLink to="/cv/">CV</NavLink>
           <NavLink to="/contact/">CONTACT</NavLink>
         </ul>
       </header>
@@ -40,6 +46,7 @@ export default function Layout({ children }) {
         <FooterLink href={SCHOLAR}>Google Scholar</FooterLink>
         <FooterLink href={GITHUB}>GitHub</FooterLink>
         <FooterLink href={TWITTER}>Twitter</FooterLink>
+        <DownloadCVLink />
       </div>
     </div>
   )

@@ -23,6 +23,7 @@ export default function Research() {
     <Layout>
       <Banner bannerClass={imageContainerStyles.researchBanner}/>
       <ContentContainer>
+        <h1 className="pageTitle">Past Research</h1>
         {researchProjects}
       </ContentContainer>
     </Layout>
