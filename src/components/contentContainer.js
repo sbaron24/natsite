@@ -29,9 +29,39 @@ export const Content = props => {
     )
 }
 
+export const DataContent = props => {
+
+    return (
+        <div className={contentContainerStyles.content}>
+            <div>
+                <p>{props.text1}</p>
+                <p>{props.text2}</p>         
+            </div>
+        </div>
+    )
+}
+
+export const BlogPost = props => {
+
+    return (
+        <div className={contentContainerStyles.blogPost}>
+            <a href={props.href}><h3>{props.title}</h3></a>
+        </div>
+    )
+}
+
 export function ContentContainer({children}) {
     return (
         <div className={contentContainerStyles.container}>
+            {children}
+        </div>
+    )
+}
+
+export function BlogContainer({children}) {
+
+    return (
+        <div className={contentContainerStyles.blogContainer}>
             {children}
         </div>
     )

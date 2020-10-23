@@ -43,6 +43,15 @@
   margin-bottom: 3rem;
 }
 
+.dataBanner {
+  width: 100%;
+  background-image: url(../images/rocks.jpeg);
+  height: 55vh;
+  min-height: 450px;
+  background-position: center;
+  margin-bottom: 3rem;
+}
+
 .stickers {
   display: flex;
   flex-direction: row;

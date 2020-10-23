@@ -6,7 +6,17 @@
     display: flex;
     flex-wrap: wrap;
     padding: 3rem;
-    font-family: serif;
+}
+
+.blogPost {
+    border: solid lightgrey 2px;
+    width: 25%;
+    height: fit-content;
+    padding: 2rem 1rem;
+    margin-left: 2px;
+    margin-top: 5px;
+    text-align: center;
+    align-self: center;
 }
 
 .imageClass { 
@@ -20,11 +30,19 @@
 }
 
 .container {
-    display:flex;
+    display: flex;
     flex-direction: column;
     justify-content: space-between;
     margin: auto;
     width: 100%;
+}
+
+.blogContainer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: auto;
+    width: 70%;
 }
 
 @media (min-width: 500px) {
