@@ -17,11 +17,7 @@
 
 @media (max-width: 500px) {
     .about.image {
-        width: initial;
-        object-fit: initial;
-        display: initial;
-        transform: rotate(10deg);
-        margin-left: 0px;
+        display: none;
     }
 
     .about.container {
